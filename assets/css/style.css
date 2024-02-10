@@ -16,12 +16,16 @@ body {
     /*generic project styles*/
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
-    
+
 }
 
 /* header styles */
 header {
     background-color: pink;
+}
+
+h1 {
+    font-family: 'Oswald' sans-serif;
 }
 
 /* main content styles */
