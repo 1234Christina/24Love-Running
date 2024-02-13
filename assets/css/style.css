@@ -59,7 +59,7 @@ h1 {
 
 /* main content styles */
 main {
-    background-color: aquamarine;
+    background-color: lightblue;
     /*make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
@@ -92,7 +92,7 @@ nav {
 
 /* footer styles */
 footer {
-    background-color: orange;
+    background-color: peachpuff;
 }
 
 #social-networks {
@@ -101,6 +101,12 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /*media query: tablets and larger (768px and up)*/
