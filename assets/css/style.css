@@ -95,6 +95,12 @@ footer {
     background-color: orange;
 }
 
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+}
+
 /*media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
     /*Header*/
