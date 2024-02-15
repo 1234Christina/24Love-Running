@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* asterisk wildcard selector to override default styles added to the browser */
 * {
@@ -86,6 +86,32 @@ main {
 
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
+}
+
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /*Nav bar styles with dropdown toggle*/
